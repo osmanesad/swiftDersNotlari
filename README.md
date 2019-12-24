@@ -1,3 +1,3 @@
 # swiftDersNotlari
 
-Bu bölümde aldığım kursta yapmış olduğum uygulamaların dosyaları yer almaktadır.
+Aşama aşama Swift dili üzerine notlar ve tekrarlar.
