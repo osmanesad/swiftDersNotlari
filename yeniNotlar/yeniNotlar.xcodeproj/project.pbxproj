@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23580B5124893F4D0020F49D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23580B5024893F4D0020F49D /* AppDelegate.swift */; };
+		23580B5324893F4D0020F49D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23580B5224893F4D0020F49D /* SceneDelegate.swift */; };
+		23580B5524893F4D0020F49D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23580B5424893F4D0020F49D /* ViewController.swift */; };
+		23580B5824893F4D0020F49D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23580B5624893F4D0020F49D /* Main.storyboard */; };
+		23580B5A24893F520020F49D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23580B5924893F520020F49D /* Assets.xcassets */; };
+		23580B5D24893F520020F49D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23580B5B24893F520020F49D /* LaunchScreen.storyboard */; };
+		23580B65248943500020F49D /* NotHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23580B64248943500020F49D /* NotHucreTableViewCell.swift */; };
+		23580B672489454B0020F49D /* NotEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23580B662489454B0020F49D /* NotEkleViewController.swift */; };
+		23580B69248945620020F49D /* NotDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23580B68248945610020F49D /* NotDetayViewController.swift */; };
+		23580B6B248948630020F49D /* Notlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23580B6A248948630020F49D /* Notlar.swift */; };
+		23580B6D248953D60020F49D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23580B6C248953D60020F49D /* GoogleService-Info.plist */; };
+		23D7A39524B0E42300AC0AA8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D7A39424B0E42200AC0AA8 /* Extensions.swift */; };
+		23D7A39924B0F39200AC0AA8 /* NotEkleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D7A39824B0F39200AC0AA8 /* NotEkleTableViewController.swift */; };
+		EF04E96B1E2FC43DD36644D5 /* Pods_yeniNotlar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79297ACC0142983C5B597E87 /* Pods_yeniNotlar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23580B4D24893F4D0020F49D /* yeniNotlar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yeniNotlar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23580B5024893F4D0020F49D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23580B5224893F4D0020F49D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		23580B5424893F4D0020F49D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23580B5724893F4D0020F49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23580B5924893F520020F49D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23580B5C24893F520020F49D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23580B5E24893F520020F49D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23580B64248943500020F49D /* NotHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotHucreTableViewCell.swift; sourceTree = "<group>"; };
+		23580B662489454B0020F49D /* NotEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotEkleViewController.swift; sourceTree = "<group>"; };
+		23580B68248945610020F49D /* NotDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotDetayViewController.swift; sourceTree = "<group>"; };
+		23580B6A248948630020F49D /* Notlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notlar.swift; sourceTree = "<group>"; };
+		23580B6C248953D60020F49D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		23D7A39424B0E42200AC0AA8 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		23D7A39824B0F39200AC0AA8 /* NotEkleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotEkleTableViewController.swift; sourceTree = "<group>"; };
+		3F3D5100FB9360F5449E598C /* Pods-yeniNotlar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yeniNotlar.release.xcconfig"; path = "Target Support Files/Pods-yeniNotlar/Pods-yeniNotlar.release.xcconfig"; sourceTree = "<group>"; };
+		79297ACC0142983C5B597E87 /* Pods_yeniNotlar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yeniNotlar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A228F05D76EF4B68E6B595 /* Pods-yeniNotlar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yeniNotlar.debug.xcconfig"; path = "Target Support Files/Pods-yeniNotlar/Pods-yeniNotlar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23580B4A24893F4D0020F49D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF04E96B1E2FC43DD36644D5 /* Pods_yeniNotlar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23580B4424893F4D0020F49D = {
+			isa = PBXGroup;
+			children = (
+				23580B4F24893F4D0020F49D /* yeniNotlar */,
+				23580B4E24893F4D0020F49D /* Products */,
+				37A94156321EF0CDDDCCE6D1 /* Pods */,
+				47E20171E8256D594A0B5800 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23580B4E24893F4D0020F49D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23580B4D24893F4D0020F49D /* yeniNotlar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23580B4F24893F4D0020F49D /* yeniNotlar */ = {
+			isa = PBXGroup;
+			children = (
+				23580B5024893F4D0020F49D /* AppDelegate.swift */,
+				23580B5224893F4D0020F49D /* SceneDelegate.swift */,
+				23580B5424893F4D0020F49D /* ViewController.swift */,
+				23580B5624893F4D0020F49D /* Main.storyboard */,
+				23580B5924893F520020F49D /* Assets.xcassets */,
+				23580B5B24893F520020F49D /* LaunchScreen.storyboard */,
+				23580B5E24893F520020F49D /* Info.plist */,
+				23D7A39424B0E42200AC0AA8 /* Extensions.swift */,
+				23580B64248943500020F49D /* NotHucreTableViewCell.swift */,
+				23580B662489454B0020F49D /* NotEkleViewController.swift */,
+				23580B68248945610020F49D /* NotDetayViewController.swift */,
+				23580B6A248948630020F49D /* Notlar.swift */,
+				23580B6C248953D60020F49D /* GoogleService-Info.plist */,
+				23D7A39824B0F39200AC0AA8 /* NotEkleTableViewController.swift */,
+			);
+			path = yeniNotlar;
+			sourceTree = "<group>";
+		};
+		37A94156321EF0CDDDCCE6D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3A228F05D76EF4B68E6B595 /* Pods-yeniNotlar.debug.xcconfig */,
+				3F3D5100FB9360F5449E598C /* Pods-yeniNotlar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		47E20171E8256D594A0B5800 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79297ACC0142983C5B597E87 /* Pods_yeniNotlar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23580B4C24893F4D0020F49D /* yeniNotlar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23580B6124893F520020F49D /* Build configuration list for PBXNativeTarget "yeniNotlar" */;
+			buildPhases = (
+				04675E89001D8C39641A7ADF /* [CP] Check Pods Manifest.lock */,
+				23580B4924893F4D0020F49D /* Sources */,
+				23580B4A24893F4D0020F49D /* Frameworks */,
+				23580B4B24893F4D0020F49D /* Resources */,
+				135F8E8344016341BE100564 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yeniNotlar;
+			productName = yeniNotlar;
+			productReference = 23580B4D24893F4D0020F49D /* yeniNotlar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23580B4524893F4D0020F49D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = pixeldigitalart;
+				TargetAttributes = {
+					23580B4C24893F4D0020F49D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 23580B4824893F4D0020F49D /* Build configuration list for PBXProject "yeniNotlar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23580B4424893F4D0020F49D;
+			productRefGroup = 23580B4E24893F4D0020F49D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23580B4C24893F4D0020F49D /* yeniNotlar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23580B4B24893F4D0020F49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23580B5D24893F520020F49D /* LaunchScreen.storyboard in Resources */,
+				23580B6D248953D60020F49D /* GoogleService-Info.plist in Resources */,
+				23580B5A24893F520020F49D /* Assets.xcassets in Resources */,
+				23580B5824893F4D0020F49D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04675E89001D8C39641A7ADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yeniNotlar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		135F8E8344016341BE100564 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yeniNotlar/Pods-yeniNotlar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yeniNotlar/Pods-yeniNotlar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yeniNotlar/Pods-yeniNotlar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23580B4924893F4D0020F49D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D7A39924B0F39200AC0AA8 /* NotEkleTableViewController.swift in Sources */,
+				23580B5524893F4D0020F49D /* ViewController.swift in Sources */,
+				23580B6B248948630020F49D /* Notlar.swift in Sources */,
+				23580B672489454B0020F49D /* NotEkleViewController.swift in Sources */,
+				23D7A39524B0E42300AC0AA8 /* Extensions.swift in Sources */,
+				23580B65248943500020F49D /* NotHucreTableViewCell.swift in Sources */,
+				23580B5124893F4D0020F49D /* AppDelegate.swift in Sources */,
+				23580B69248945620020F49D /* NotDetayViewController.swift in Sources */,
+				23580B5324893F4D0020F49D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23580B5624893F4D0020F49D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23580B5724893F4D0020F49D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23580B5B24893F520020F49D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23580B5C24893F520020F49D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23580B5F24893F520020F49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23580B6024893F520020F49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23580B6224893F520020F49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A228F05D76EF4B68E6B595 /* Pods-yeniNotlar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89VD7SL339;
+				INFOPLIST_FILE = yeniNotlar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.pixeldigitalart.yeniNotlar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23580B6324893F520020F49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F3D5100FB9360F5449E598C /* Pods-yeniNotlar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89VD7SL339;
+				INFOPLIST_FILE = yeniNotlar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.pixeldigitalart.yeniNotlar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23580B4824893F4D0020F49D /* Build configuration list for PBXProject "yeniNotlar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23580B5F24893F520020F49D /* Debug */,
+				23580B6024893F520020F49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23580B6124893F520020F49D /* Build configuration list for PBXNativeTarget "yeniNotlar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23580B6224893F520020F49D /* Debug */,
+				23580B6324893F520020F49D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23580B4524893F4D0020F49D /* Project object */;
+}

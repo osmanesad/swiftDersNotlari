@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>39145880194-oif37d3e6aa5mf8sova41bi7vn7ks6ve.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.39145880194-oif37d3e6aa5mf8sova41bi7vn7ks6ve</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBsn0OocFJMO2z3M7l-ClWJgBwVKmxhq7k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>39145880194</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>co.pixeldigitalart.yeniNotlar</string>
+	<key>PROJECT_ID</key>
+	<string>xprojesi-9db4d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>xprojesi-9db4d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:39145880194:ios:ee428956e193ef8c7bd29b</string>
+	<key>DATABASE_URL</key>
+	<string>https://xprojesi-9db4d.firebaseio.com</string>
+</dict>
+</plist>
